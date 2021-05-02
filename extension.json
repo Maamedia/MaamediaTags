@@ -1,0 +1,29 @@
+{
+	"name": "MaamediaTags",
+	"version": "0.3",
+	"author": "Mito",
+	"url": "https://github.com/Maamedia/MaamediaTags",
+	"descriptionmsg": "maamediatags-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"MaamediaTags": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MaamediaTags": "includes/MaamediaTags.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MaamediaTags::register"
+	},
+	"config": {
+		"MaamediaTagsAttributes": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}
