@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": "Mito"
 	},
-	"maamediatags-desc": "An extension created for Maamedida. Among other things, it offers custom HTML codes.",
+	"maamediatags-desc": "An extension created for Maamedia. Among other things, it offers custom HTML codes.",
 	"maamediatags-notagname": "The attribute \"tagname\" must be set for this tag.",
 	"maamediatags-unsupportedtag": "The tag name \"$1\" is not supported for <maatag>."
 }
